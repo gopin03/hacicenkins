@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    imagename = "tomcat"
+    imagename = "gopinath/tomcat"
     registryCredential = 'gopinath-dokerhub'
     dockerImage = ''
   }
